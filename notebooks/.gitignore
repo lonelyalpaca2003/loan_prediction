@@ -1,0 +1,24 @@
+# --- Python cache / logs ---
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.DS_Store
+
+# --- Jupyter checkpoint folders ---
+.ipynb_checkpoints/
+
+# --- MLflow experiment tracking ---
+mlruns/
+
+# --- Virtual environments ---
+venv/
+.env/
+.env*/
+
+# --- Miscellaneous ---
+*.sqlite
+*.db
+*.csv~
+*.bak
+*.swp
